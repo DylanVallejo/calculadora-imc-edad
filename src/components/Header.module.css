@@ -1,0 +1,10 @@
+
+.headerContainer{
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    width: 85%;
+    border-radius: 15px;
+    margin: 5px auto;
+}

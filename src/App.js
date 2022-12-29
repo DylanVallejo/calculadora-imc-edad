@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import AgeCalc from './components/AgeCalc';
+import Header from './components/Header';
+import Masa from './components/Masa';
+
+//titulo por props
+//calcular el indice enviar por porps
+//slider desde 40 hasta 150 kg
+//120 230 cm altura
+// calcular el imc
+//calcular automatico
+//aceptable un slider con bton calcular 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header header={'Calcular la edad'}/>
+      <AgeCalc/>
+      <Masa/>
     </div>
   );
 }
